@@ -1,0 +1,27 @@
+.btn {
+    background-color: #ffc400;
+    border-radius: 15px 15px;
+}
+
+.bodi {
+    background-image: url("assets/images/backgroun.a24f02b3.jpeg");
+}
+
+.nav-item h5 {
+    color: #ffc400;
+}
+
+.bg {
+    background-color: #ffc400;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+.white{
+    background-color: white;
+    /* height: 500px; */
+
+}
+.bttn{
+    background-color: #ffc400;
+
+}
