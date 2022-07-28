@@ -1,9 +1,10 @@
 .btn {
-    background: linear-gradient(294.72deg,#e0b908 9.05%,#fc9004 79.28%);
+    background: linear-gradient(294.72deg, #e0b908 9.05%, #fc9004 79.28%);
     border-radius: 15px 15px;
 }
-.navbar-toggler{
-    background: linear-gradient(294.72deg,#e0b908 9.05%,#fc9004 79.28%);
+
+.navbar-toggler {
+    background: linear-gradient(294.72deg, #e0b908 9.05%, #fc9004 79.28%);
 
 }
 
@@ -11,7 +12,7 @@
     background-image: url("assets/images/backgroun.a24f02b3.jpeg");
 }
 
-.nav-item h5 { 
+.nav-item h5 {
     color: #ffc400;
 }
 
@@ -20,20 +21,57 @@
     height: 100px;
     border-radius: 25px 25px 0px 0px;
 }
-.white{
+
+.white {
     background-color: white;
     /* height: 500px; */
 
 }
-.bttn{
-    background-color: #ffc400;
 
-}
-.btn-bg{
+.btn-bg {
     background-color: white;
-    border-radius: 5px 5px ;
+    border-radius: 5px 5px;
 }
-.oo:hover{
-    background-color: white;
-    /* box-shadow: 1rem; */
+
+.textcolor {
+    color: #fc9004;
+    font-size: 18px;
+}
+
+.box-hover:hover {
+    -webkit-box-shadow: 4px 10px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 10px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav-tabs{
+    border: none;
+}
+/* .rounded{
+border-radius: 15px !important;
+    width: 40%;
+    height: 60px;
+} */
+
+.inputMax{
+    /* border-radius: 15px !important; */
+    /* width: 500px; */
+    /* height: 60px; */
+    display: flex;
+}
+.btn-common{
+    width: 50px;
+    background-color: #fc9004;
+}
+.inputMax input{
+    width: 600px;
+    height: 55px;
+    /* border-radius: 6px; */
+}
+.backcolor{
+    background-color: #fc9004;
+}
+.input-group input{
+    padding: 15px;
+    border-radius: 15px;
 }
