@@ -1,3 +1,6 @@
+body{
+    font-family: Rubik,sans-serif;
+}
 .btn {
     background: linear-gradient(294.72deg, #e0b908 9.05%, #fc9004 79.28%);
     border-radius: 15px 15px;
@@ -74,4 +77,63 @@ border-radius: 15px !important;
 .input-group input{
     padding: 15px;
     border-radius: 15px;
+}
+.box{
+    background-color: #F8FCF2 ;
+    border: 2px solid #fc9004;
+    height: 150px;
+    border-radius: 10px;
+    width: 400px;
+   
+    display: block;
+    margin: auto;
+}
+.card-body .btn{
+    width: 400px !important;
+    display: block;
+    margin: auto;
+}
+.box-migrate{
+    /* border: 2px solid   #A7C39D; */
+    /* border-radius: 10px; */
+/*     
+    /* width: 250px; */
+    /* height: 40px;  */
+    /* display: block;
+    margin: auto; */
+    /* padding: 0px; */
+    display: flex;
+    justify-content: center;
+}
+.migrate-btn{
+    width: 400px !important;
+    display: block;
+    margin: auto;
+
+}
+.refferral-box{
+    background-color:white;
+    height: auto;
+    width: 50%;
+}
+.circle{
+    border-radius: 100px;
+    background-color: #e0b908;
+    width: 40px;
+    height: 40px;
+    
+}
+.circle-2{
+    border-radius: 100px;
+    background-color: #e0b908;
+    width: 70px;
+    height: 45px;
+    /* padding: 30px; */
+    
+}
+
+
+.input-migrate{
+      border: 2px solid   #A7C39D; 
+    border-radius: 10px; 
 }
