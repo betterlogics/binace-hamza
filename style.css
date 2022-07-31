@@ -1,5 +1,9 @@
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: Rubik,sans-serif;
+    
 }
 .btn {
     background: linear-gradient(294.72deg, #e0b908 9.05%, #fc9004 79.28%);
@@ -14,15 +18,6 @@ body{
 .bodi {
     background-image: url("assets/images/backgroun.a24f02b3.jpeg");  
 }
-/* .bro{
-    border: 3px  solid black;
-    height: 100px;
-        border-top: 3px;
-        border-bottom: 0;
-        border-right: 0;
-        margin-left: 75px;
-} */
-
 .nav-item h5 {
     color: #ffc400;
 }
@@ -32,41 +27,27 @@ body{
     height: 100px;
     border-radius: 25px 25px 0px 0px;
 }
-
 .white {
     background-color: white;
     /* height: 500px; */
 
 }
-
 .btn-bg {
     background-color: white;
     border-radius: 5px 5px;
 }
-
 .textcolor {
     color: #E6BF08;
     font-size: 18px;
 }
-
 .box-hover:hover {
     border:0px;
     box-shadow: 4px 10px 12px 0px rgba(0, 0, 0, 0.2);
 }
-
 .nav-tabs{
     border: none;
 }
-/* .rounded{
-border-radius: 15px !important;
-    width: 40%;
-    height: 60px;
-} */
-
 .inputMax{
-    /* border-radius: 15px !important; */
-    /* width: 500px; */
-    /* height: 60px; */
     display: flex;
 }
 .btn-common{
@@ -76,7 +57,6 @@ border-radius: 15px !important;
 .inputMax input{
     width: 600px;
     height: 55px;
-    /* border-radius: 6px; */
 }
 .backcolor{
     background-color: #fc9004;
@@ -89,12 +69,8 @@ border-radius: 15px !important;
 .box{
     background-color: #F8FCF2 ;
     border: 2px solid #fc9004;
-    height: 150px;
+    height: 200px;
     border-radius: 10px;
-    width: 400px;
-   
-    display: block;
-    margin: auto;
 }
 .card-body .btn{
     width: 400px !important;
@@ -102,19 +78,10 @@ border-radius: 15px !important;
     margin: auto;
 }
 .box-migrate{
-    /* border: 2px solid   #A7C39D; */
-    /* border-radius: 10px; */
-/*     
-    /* width: 250px; */
-    /* height: 40px;  */
-    /* display: block;
-    margin: auto; */
-    /* padding: 0px; */
     display: flex;
     justify-content: center;
 }
 .migrate-btn{
-    width: 400px !important;
     display: block;
     margin: auto;
 
@@ -134,7 +101,6 @@ border-radius: 15px !important;
 }
 .hr{
     height: 1px;
-    /* width: 800px ; */
     background-color: #fc9004;
 }
 .div-user{
@@ -147,13 +113,10 @@ border-radius: 15px !important;
     border: 0;
 }
 .gg{
-    
     border-radius: 10px 10px 10px 10px ;
 }
 .circle{
-
     position: relative;
-
 }
 .circle-bg{
     width: 50px;
@@ -165,9 +128,6 @@ border-radius: 15px !important;
     position: absolute;
     top: 11px;
     left: 19px;
-    /* bottom: 0; */
-    /* right: 0; */
-    /* color: black; */
     font-size: 20px;
     font-weight: bold;
     
@@ -175,8 +135,9 @@ border-radius: 15px !important;
 .referral-box{
     border: 2px solid   #A7C39D;
     border-radius: 10px;
-    
 }
 .container-2{
     border-radius: 15px;
+}.border_widthraw{
+    border-radius: 10px;
 }
